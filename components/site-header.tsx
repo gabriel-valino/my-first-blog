@@ -5,6 +5,7 @@ import { buttonVariants } from './ui/button'
 import { Icons } from './icons'
 import { MainNav } from './main-nav'
 import { MobileNav } from './mobile-nav'
+import { ModeToggle } from './mode-toggle'
 
 export interface SiteHeaderProps {}
 
@@ -14,7 +15,7 @@ export function SiteHeader() {
       <div className="container flex h-14 max-w-screen-2xl items-center">
         <MainNav />
         <div className="flex flex-1 items-center justify-end space-x-2">
-          <nav className="flex items-center">
+          <nav className="flex items-center gap-2">
             <Link
               href={siteConfig.links.github}
               target="_blank"
@@ -45,6 +46,7 @@ export function SiteHeader() {
                 <span className="sr-only">Github</span>
               </div>
             </Link>
+            <ModeToggle />
             <MobileNav />
           </nav>
         </div>
