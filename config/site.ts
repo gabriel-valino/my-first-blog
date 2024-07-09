@@ -7,6 +7,7 @@ export const siteConfig = {
     linkedin: 'https://www.linkedin.com/in/gabriel-sanches-891aba296/',
     github: 'https://github.com/gabriel-valino',
     twitter: 'https://x.com/BielValino',
+    personalSite: 'https://gabrielvalinoexample.com',
   },
 }
 

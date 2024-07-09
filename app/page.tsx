@@ -4,6 +4,7 @@ import { cn, sortPosts } from '@/lib/utils'
 import Link from 'next/link'
 import { posts } from '#site/content'
 import { PostItem } from '@/components/post-item'
+import { Icons } from '@/components/icons'
 
 export default function Home() {
   const latestPosts = sortPosts(posts).slice(0, 5)
@@ -35,7 +36,8 @@ export default function Home() {
                 'w-full sm:w-fit',
               )}
             >
-              GitHub
+              GitHub &nbsp;
+              <Icons.gitHub className="h-4 w-4" />
             </Link>
           </div>
         </div>
