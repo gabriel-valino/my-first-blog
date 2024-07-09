@@ -1,8 +1,9 @@
 import Image from 'next/image'
 import * as runtime from 'react/jsx-runtime'
-import { Callout } from './Callout'
+import { Callout } from './callout'
 
 const useMDXComponent = (code: string) => {
+  // eslint-disable-next-line no-new-func
   const fn = new Function(code)
   return fn({ ...runtime }).default
 }
