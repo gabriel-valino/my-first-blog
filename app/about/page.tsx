@@ -36,13 +36,12 @@ export default async function AboutPage() {
         </div>
 
         <p className="py-4 text-lg text-muted-foreground">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia
+          Desenvolvedor Front-End focado em React, Next.js e Tailwind CSS. Há 1
+          ano e meio venho construindo aplicações modernas por meio de projetos
+          pessoais, cursos intensivos e desafios práticos. Optei por uma
+          formação alternativa, priorizando o aprendizado técnico contínuo e
+          voltado ao mercado. Busco minha primeira oportunidade profissional
+          para aplicar meus conhecimentos em um ambiente de produção.
         </p>
       </div>
     </div>
