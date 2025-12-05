@@ -4,8 +4,7 @@ Um blog moderno e minimalista desenvolvido com **Next.js 14**, utilizando o novo
 
 ## 🚀 Demonstração
 
-**Live:** https://next-blog-gabriel.vercel.app  
-**Repositório:** [github.com/gabriel-valino/my-first-blog](https://github.com/gabriel-valino/my-first-blog)
+**Live:** [https://next-blog-gabriel.vercel.app](my-first-blog-flax.vercel.app)
 
 ## 🧪 Tecnologias Utilizadas
 
